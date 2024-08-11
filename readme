@@ -1,7 +1,7 @@
-script to generate a report using 1Money
+script to generate a statement using 1Money CSV
 
-just rename your CSV file to money
+just rename your CSV file to money.csv
 
-python generate_statement.py <start_date> <end_date> <input_csv> <output_pdf>
+command: python generate_statement.py <start_date> <end_date> <input_csv> <output_pdf>
 
 Dates should be in the format: DD/MM/YY
